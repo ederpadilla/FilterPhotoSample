@@ -7,13 +7,19 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="jr.eder.developer.example.com.filtersample.MainActivity">
-    <jp.co.cyberagent.android.gpuimage.GPUImageView
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="90"
+    android:id="@+id/img"/>
+
+    <!--<jp.co.cyberagent.android.gpuimage.GPUImageView
         android:id="@+id/gpuimage"
         android:layout_gravity="center"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="60"
-        />
+        />-->
     <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="0dp"

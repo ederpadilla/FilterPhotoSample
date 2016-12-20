@@ -29,5 +29,7 @@ dependencies {
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
     compile 'jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1'
     testCompile 'junit:junit:4.12'
+    compile 'com.github.TannerPerrien:picasso-transformations:picasso-transformations-parent-1.0.0'
+    compile 'com.jpeng:LoadingProgress:1.1.0'
     compile 'com.android.support:recyclerview-v7:21.0.+'
 }
